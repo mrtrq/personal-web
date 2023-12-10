@@ -18,8 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <meta property='og:image' content='https://drive.google.com/file/d/1IaZLNH_CnhLvfEAD4-sFiXzEx4nULQWq/view?usp=sharing'></meta>
+      <head>
+      <meta property='og:image' content='https://drive.google.com/file/d/1IaZLNH_CnhLvfEAD4-sFiXzEx4nULQWq/view?usp=sharing'/>
       <body className={jakarta.className}>{children}</body>
+      </head>
     </html>
   )
 }
