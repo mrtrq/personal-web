@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ['latin'] })
 const jakarta = Plus_Jakarta_Sans({subsets: ['latin']})
 
 export const metadata: Metadata = {
-  title: 'Tarreq Maulana',
+  title: "Req's Space",
   description: 'Under construction..',
-  icons: 'https://drive.google.com/file/d/1IaZLNH_CnhLvfEAD4-sFiXzEx4nULQWq/view?usp=sharing'
+  icons: '../../public/rocket.svg'
 }
 
 export default function RootLayout({
@@ -19,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <meta property='og:image' content='https://drive.google.com/file/d/1IaZLNH_CnhLvfEAD4-sFiXzEx4nULQWq/view?usp=sharing'/>
       <body className={jakarta.className}>{children}</body>
       </head>
     </html>
