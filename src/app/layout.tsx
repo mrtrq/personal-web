@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google'
 import './globals.css'
+import './favicon.ico'
 
 const inter = Inter({ subsets: ['latin'] })
 const jakarta = Plus_Jakarta_Sans({subsets: ['latin']})
@@ -8,7 +9,7 @@ const jakarta = Plus_Jakarta_Sans({subsets: ['latin']})
 export const metadata: Metadata = {
   title: "Req's Space",
   description: 'Under construction..',
-  icons: '../../public/rocket.svg'
+  icons: 'favicon.ico'
 }
 
 export default function RootLayout({
