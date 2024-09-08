@@ -1,13 +1,15 @@
-import Image from 'next/image'
-import Head from 'next/head'
+import Head from "next/head"
 
 export default function Home() {
   return (
+    
     <main className='min-height-screen bg-white p-2 flex justify-center items-center'>
       <div className='flex flex-col items-center gap-4'>
-        <h1 className='text-[3.5rem]'>Hi! I'm Tarreq.</h1>
-        <p className='font-semibold text-lg'>This site is under construction🔨⚙️.</p>
-        
+        <h1 className='text-[3.5rem]'>Tarreq Maulana</h1>
+        <div className='flex flex-col items-center gap-1'>
+        <p className='font-light text-l'>A generalist final-year Computer Science student at Universitas Indonesia.</p>
+        <p className='font-semibold text-l'>Passionate about leveraging technology to solve real-world problems 💻⚙️</p>
+        </div>
       </div>
     </main>
   )
