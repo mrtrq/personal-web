@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 const jakarta = Plus_Jakarta_Sans({subsets: ['latin']})
 
 export const metadata: Metadata = {
-  title: "Req's Space",
+  title: "Tarreq Maulana",
   description: 'Under construction..',
   icons: 'favicon.ico'
 }
